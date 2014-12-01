@@ -3,6 +3,6 @@
 var addiere = function (x: number, y: number): number {
     // alert(x + y);
     return x + y;
-}
+};
 
 addiere(1, 2);

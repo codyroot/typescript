@@ -1,12 +1,12 @@
 ///<reference path="models.ts" />
-module video2brain {
+module thePlayer {
     export module Business {
         export class VideoPlayer {
-            play(video: video2brain.Models.Video) {
+            play(video: models.Video) {
                 console.log('Spiele video ' + video.title);
             }
 
-            pause(video: video2brain.Models.Video) {
+            pause(video: models.Video) {
                 console.log('Pausiere video ' + video.title);
             }
         }

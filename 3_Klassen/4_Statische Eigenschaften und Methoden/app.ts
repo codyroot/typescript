@@ -34,6 +34,6 @@
 var p = new Person();
 var p2 = new Person();
 alert(p.sayHello("Terence"));
-alert(p.sayHello("Bud"));
+alert(p2.sayHello("Bud"));
 
 alert('Es gibt schon ' + Person.count + ' Personen'); 

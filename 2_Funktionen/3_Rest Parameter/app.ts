@@ -8,6 +8,6 @@ var multi = function (x: number, y: number, ...z:number[]) {
     }
 
     return result;
-}
+};
 
 multi(1, 2, 3, 4, 5);

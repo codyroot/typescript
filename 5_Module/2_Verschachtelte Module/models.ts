@@ -1,4 +1,4 @@
-module video2brain.Models {
+module models {
     export class Customer {
         firstName = '';
         lastName = '';

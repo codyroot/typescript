@@ -1,9 +1,10 @@
-﻿///<reference path="models.ts" />
+﻿//<reference path="models.ts" />
 ///<reference path="business.ts" />
 
 // Namespace abkürzen
-import models = video2brain.Models;
-import business = video2brain.Business;
+import models = models;
+import business = thePlayer.Business;
+
 
 var video = new models.Video();
 video.title = 'Haudrauff 2.0 - Die umfassende Schlägerei';

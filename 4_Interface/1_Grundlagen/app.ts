@@ -25,6 +25,6 @@ console.log(x.sayName());
 x = {
     firstName: 'Willy', lastName: 'Wuff',
     sayName: function () { return 'Ich bin ' + this.firstName + this.lastName}
-}
+};
 
 alert(x.sayName());

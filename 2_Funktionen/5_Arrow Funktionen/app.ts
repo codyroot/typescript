@@ -29,6 +29,6 @@ var myObj = {
         }, false);
     },
     msg: "Klick auf das Fenster"
-}
+};
 
 myObj.init();
